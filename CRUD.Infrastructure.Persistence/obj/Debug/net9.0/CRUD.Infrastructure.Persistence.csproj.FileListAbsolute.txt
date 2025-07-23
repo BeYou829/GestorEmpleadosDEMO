@@ -1,0 +1,17 @@
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\bin\Debug\net9.0\CRUD.Infrastructure.Persistence.deps.json
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\bin\Debug\net9.0\CRUD.Infrastructure.Persistence.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\bin\Debug\net9.0\CRUD.Infrastructure.Persistence.pdb
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\bin\Debug\net9.0\CRUD.Core.Domain.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\bin\Debug\net9.0\CRUD.Core.Domain.pdb
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\CRUD.Infrastructure.Persistence.csproj.AssemblyReference.cache
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\CRUD.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\CRUD.Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\CRUD.Infrastructure.Persistence.AssemblyInfo.cs
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\CRUD.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\CRUD.Inf.86F4574B.Up2Date
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\CRUD.Infrastructure.Persistence.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\refint\CRUD.Infrastructure.Persistence.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\CRUD.Infrastructure.Persistence.pdb
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\ref\CRUD.Infrastructure.Persistence.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\bin\Debug\net9.0\CRUD.Infrastructure.Persistence.runtimeconfig.json
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\CRUD.Infrastructure.Persistence.genruntimeconfig.cache

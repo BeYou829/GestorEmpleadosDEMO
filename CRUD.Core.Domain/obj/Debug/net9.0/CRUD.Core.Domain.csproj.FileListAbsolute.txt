@@ -1,0 +1,11 @@
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Domain\bin\Debug\net9.0\CRUD.Core.Domain.deps.json
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Domain\bin\Debug\net9.0\CRUD.Core.Domain.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Domain\bin\Debug\net9.0\CRUD.Core.Domain.pdb
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Domain\obj\Debug\net9.0\CRUD.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Domain\obj\Debug\net9.0\CRUD.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Domain\obj\Debug\net9.0\CRUD.Core.Domain.AssemblyInfo.cs
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Domain\obj\Debug\net9.0\CRUD.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Domain\obj\Debug\net9.0\CRUD.Core.Domain.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Domain\obj\Debug\net9.0\refint\CRUD.Core.Domain.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Domain\obj\Debug\net9.0\CRUD.Core.Domain.pdb
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Domain\obj\Debug\net9.0\ref\CRUD.Core.Domain.dll
