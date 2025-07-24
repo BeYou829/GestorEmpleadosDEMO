@@ -1599,6 +1599,19 @@
           }
         }
       },
+      "CRUD.Core.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CRUD.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUD.Core.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUD.Core.Application.dll": {}
+        }
+      },
       "CRUD.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -4712,6 +4725,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "CRUD.Core.Application/1.0.0": {
+      "type": "project",
+      "path": "../CRUD.Core.Application/CRUD.Core.Application.csproj",
+      "msbuildProject": "../CRUD.Core.Application/CRUD.Core.Application.csproj"
+    },
     "CRUD.Core.Domain/1.0.0": {
       "type": "project",
       "path": "../CRUD.Core.Domain/CRUD.Core.Domain.csproj",
@@ -4720,6 +4738,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "CRUD.Core.Application >= 1.0.0",
       "CRUD.Core.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.7",
@@ -4759,6 +4778,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\CRUD.Core.Application.csproj": {
+              "projectPath": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\CRUD.Core.Application.csproj"
+            },
             "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Domain\\CRUD.Core.Domain.csproj": {
               "projectPath": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Domain\\CRUD.Core.Domain.csproj"
             }

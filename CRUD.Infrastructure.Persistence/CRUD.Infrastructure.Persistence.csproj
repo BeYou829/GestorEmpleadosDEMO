@@ -17,11 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CRUD.Core.Application\CRUD.Core.Application.csproj" />
     <ProjectReference Include="..\CRUD.Core.Domain\CRUD.Core.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>

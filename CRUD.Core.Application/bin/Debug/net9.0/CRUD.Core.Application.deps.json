@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "CRUD.Core.Application/1.0.0": {
+        "dependencies": {
+          "CRUD.Core.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CRUD.Core.Application.dll": {}
+        }
+      },
+      "CRUD.Core.Domain/1.0.0": {
+        "runtime": {
+          "CRUD.Core.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CRUD.Core.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRUD.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

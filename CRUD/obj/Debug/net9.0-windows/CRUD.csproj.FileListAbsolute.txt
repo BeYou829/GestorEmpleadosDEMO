@@ -159,3 +159,6 @@ C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-wi
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\appsettings.json
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\CRUD.Core.Application.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\CRUD.Core.Application.pdb
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.sourcelink.json

@@ -2065,6 +2065,19 @@
           }
         }
       },
+      "CRUD.Core.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CRUD.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUD.Core.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUD.Core.Application.dll": {}
+        }
+      },
       "CRUD.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -2079,6 +2092,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "CRUD.Core.Application": "1.0.0",
           "CRUD.Core.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7",
@@ -5778,6 +5792,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CRUD.Core.Application/1.0.0": {
+      "type": "project",
+      "path": "../CRUD.Core.Application/CRUD.Core.Application.csproj",
+      "msbuildProject": "../CRUD.Core.Application/CRUD.Core.Application.csproj"
     },
     "CRUD.Core.Domain/1.0.0": {
       "type": "project",

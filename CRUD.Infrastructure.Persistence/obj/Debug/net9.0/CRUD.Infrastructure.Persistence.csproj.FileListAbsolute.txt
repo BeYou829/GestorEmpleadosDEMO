@@ -15,3 +15,6 @@ C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Pers
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\ref\CRUD.Infrastructure.Persistence.dll
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\bin\Debug\net9.0\CRUD.Infrastructure.Persistence.runtimeconfig.json
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\CRUD.Infrastructure.Persistence.genruntimeconfig.cache
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\bin\Debug\net9.0\CRUD.Core.Application.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\bin\Debug\net9.0\CRUD.Core.Application.pdb
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Infrastructure.Persistence\obj\Debug\net9.0\CRUD.Infrastructure.Persistence.sourcelink.json

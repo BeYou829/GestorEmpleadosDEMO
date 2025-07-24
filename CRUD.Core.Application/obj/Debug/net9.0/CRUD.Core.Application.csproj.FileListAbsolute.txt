@@ -1,0 +1,16 @@
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\bin\Debug\net9.0\CRUD.Core.Application.deps.json
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\bin\Debug\net9.0\CRUD.Core.Application.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\bin\Debug\net9.0\CRUD.Core.Application.pdb
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\obj\Debug\net9.0\CRUD.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\obj\Debug\net9.0\CRUD.Core.Application.AssemblyInfoInputs.cache
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\obj\Debug\net9.0\CRUD.Core.Application.AssemblyInfo.cs
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\obj\Debug\net9.0\CRUD.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\obj\Debug\net9.0\CRUD.Core.Application.sourcelink.json
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\obj\Debug\net9.0\CRUD.Core.Application.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\obj\Debug\net9.0\refint\CRUD.Core.Application.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\obj\Debug\net9.0\CRUD.Core.Application.pdb
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\obj\Debug\net9.0\ref\CRUD.Core.Application.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\bin\Debug\net9.0\CRUD.Core.Domain.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\bin\Debug\net9.0\CRUD.Core.Domain.pdb
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\obj\Debug\net9.0\CRUD.Core.Application.csproj.AssemblyReference.cache
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD.Core.Application\obj\Debug\net9.0\CRUD.Cor.EF0F5AEA.Up2Date

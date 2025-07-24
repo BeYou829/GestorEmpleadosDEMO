@@ -11,8 +11,10 @@ namespace CRUD
         static void Main()
         {
             ApplicationConfiguration.Initialize();
+
             var host = CreateHostBuilder().Build();
             ServiceProvider = host.Services;
+
             Application.Run(ServiceProvider.GetRequiredService<BaseForm>());
         }
 

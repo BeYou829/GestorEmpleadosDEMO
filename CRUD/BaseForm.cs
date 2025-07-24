@@ -1,12 +1,11 @@
-using CRUD.Infrastructure.Persistence.Contexts;
-using Microsoft.EntityFrameworkCore;
+using CRUD.Core.Application.Interfaces.Repositories;
 
 namespace CRUD
 {
     public partial class BaseForm : Form
     {
-        private readonly AppDbContext _context;
-        public BaseForm(AppDbContext context)
+        private readonly IEmployeeRepository _context;
+        public BaseForm(IEmployeeRepository context)
         {
             InitializeComponent();
             _context = context;
@@ -18,7 +17,7 @@ namespace CRUD
         {
             try
             {
-                var empleados = await _context.Employees.ToListAsync();
+                var empleados = await _context.GetAllWithRelations(["Department"]);
                 dataTable.DataSource = empleados;
             }
             catch (Exception ex)
