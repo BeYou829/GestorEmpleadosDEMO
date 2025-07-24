@@ -1,3 +1,4 @@
+using CRUD.Core.Application;
 using CRUD.Infrastructure.Persistence;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -23,7 +24,11 @@ namespace CRUD
             return Host.CreateDefaultBuilder()
                 .ConfigureServices((context, services) =>
                 {
-                    services.AddPersistenceLayer(context.Configuration);
+                    // Agregando los servicios de la capa de infraestructura y aplicación
+                    services
+                            .AddPersistenceLayer(context.Configuration)
+                            .AddApplicationLayer();
+
                     services.AddTransient<BaseForm>();
                 });
         }

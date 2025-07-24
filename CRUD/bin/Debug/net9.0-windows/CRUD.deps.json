@@ -1195,7 +1195,8 @@
       },
       "CRUD.Core.Application/1.0.0": {
         "dependencies": {
-          "CRUD.Core.Domain": "1.0.0"
+          "CRUD.Core.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7"
         },
         "runtime": {
           "CRUD.Core.Application.dll": {

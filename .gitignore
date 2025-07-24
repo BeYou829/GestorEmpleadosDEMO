@@ -1,0 +1,13 @@
+# Visual Studio
+*.vs/
+*.user
+*.suo
+CRUD/.vs/
+# Build outputs
+bin/
+obj/
+
+# Others
+*.log
+*.db
+*.cache

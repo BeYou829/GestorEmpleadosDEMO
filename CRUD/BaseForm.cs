@@ -1,11 +1,12 @@
 using CRUD.Core.Application.Interfaces.Repositories;
+using CRUD.Core.Application.Interfaces.Services;
 
 namespace CRUD
 {
     public partial class BaseForm : Form
     {
-        private readonly IEmployeeRepository _context;
-        public BaseForm(IEmployeeRepository context)
+        private readonly IEmployeeService _context;
+        public BaseForm(IEmployeeService context)
         {
             InitializeComponent();
             _context = context;
@@ -17,7 +18,7 @@ namespace CRUD
         {
             try
             {
-                var empleados = await _context.GetAllWithRelations(["Department"]);
+                var empleados = await _context.GetAllAsync();
                 dataTable.DataSource = empleados;
             }
             catch (Exception ex)
