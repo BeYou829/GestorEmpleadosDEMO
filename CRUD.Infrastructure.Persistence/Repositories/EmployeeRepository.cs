@@ -10,7 +10,7 @@ namespace CRUD.Infrastructure.Persistence.Repositories
         private readonly AppDbContext _context = context;
         public async Task<ICollection<Employee>> GetAllWithRelations(List<string> navigationProperties)
         {
-            var query = _context.Set<Employee>().AsQueryable();
+            IQueryable<Employee> query = _context.Set<Employee>().AsQueryable();
             foreach (var property in navigationProperties)
             {
                 query = query.Include(property);  

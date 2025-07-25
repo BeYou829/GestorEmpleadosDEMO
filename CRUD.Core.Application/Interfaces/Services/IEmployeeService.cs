@@ -1,13 +1,10 @@
 ﻿using CRUD.Core.Application.DTOs.Employee;
+using CRUD.Core.Domain.Entities;
 
 namespace CRUD.Core.Application.Interfaces.Services
 {
-    public interface IEmployeeService
+    public interface IEmployeeService : IGenericService<int, SaveEmployeeDTO, EmployeeDTO, Employee>
     {
-        Task AddAsync(SaveEmployeeDTO employee);
-        Task<EmployeeDTO> GetByIdAsync(int id);
-        Task UpdateAsync(SaveEmployeeDTO employee);
-        Task<ICollection<EmployeeDTO>> GetAllAsync();
-        Task DeleteAsync(int id);
+        Task<ICollection<EmployeeDTO>> GetAllWithRelations(List<string> navigationProperties);
     }
 }

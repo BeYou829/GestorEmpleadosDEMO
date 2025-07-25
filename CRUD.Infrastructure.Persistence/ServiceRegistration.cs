@@ -17,7 +17,7 @@ namespace CRUD.Infrastructure.Persistence
                     m => m.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName));
             });
 
-            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddTransient(typeof(IGenericRepository<,>), typeof(GenericRepository<,>));
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();
 
             return services;

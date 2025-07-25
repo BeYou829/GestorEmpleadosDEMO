@@ -18,7 +18,7 @@ namespace CRUD
         {
             try
             {
-                var empleados = await _context.GetAllAsync();
+                var empleados = await _context.GetAllWithRelations(["Department"]);
                 dataTable.DataSource = empleados;
             }
             catch (Exception ex)

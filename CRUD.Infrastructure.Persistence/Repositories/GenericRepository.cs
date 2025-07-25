@@ -45,7 +45,7 @@ namespace CRUD.Infrastructure.Persistence.Repositories
             if (existingEntity is null)
                 return false;
 
-            context.Entry(existingEntity).CurrentValues.SetValues(entity);
+            context.Entry<T>(existingEntity).CurrentValues.SetValues(entity);
             await context.SaveChangesAsync();
             return true;
         }

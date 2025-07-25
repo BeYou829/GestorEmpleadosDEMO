@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bqfUwzaGe+8=",
+  "dgSpecHash": "9ZcJz+7P8LE=",
   "success": true,
   "projectFilePath": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\CRUD.Core.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\engel\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\engel\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
+    "C:\\Users\\engel\\.nuget\\packages\\mapster.dependencyinjection\\1.0.1\\mapster.dependencyinjection.1.0.1.nupkg.sha512",
     "C:\\Users\\engel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512"
   ],
   "logs": []
