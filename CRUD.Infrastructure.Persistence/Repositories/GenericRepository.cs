@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CRUD.Infrastructure.Persistence.Repositories
 {
-    public class GenericRepository<T>(AppDbContext context) : IGenericRepository<T> where T : class
+    public class GenericRepository<TKey, T>(AppDbContext context) : IGenericRepository<TKey,T> where T : class
     {
         public async Task AddAsync(T entity)
         {
@@ -12,9 +12,9 @@ namespace CRUD.Infrastructure.Persistence.Repositories
             await context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(TKey key)
         {
-            var entity = await context.Set<T>().FindAsync(id);
+            var entity = await context.Set<T>().FindAsync(key);
             if(entity != null)
             {
                 context.Remove(entity);
@@ -22,9 +22,9 @@ namespace CRUD.Infrastructure.Persistence.Repositories
             }
         }
 
-        public async Task<bool> ExistsAsync(int id)
+        public async Task<bool> ExistsAsync(TKey key)
         {
-            var entity = await context.Set<T>().FindAsync(id);
+            var entity = await context.Set<T>().FindAsync(key);
             return entity != null;
         }
 
@@ -33,14 +33,14 @@ namespace CRUD.Infrastructure.Persistence.Repositories
             return await context.Set<T>().ToListAsync();
         }
 
-        public async Task<T> GetByIdAsync(int id)
+        public async Task<T> GetByIdAsync(TKey key)
         {
-            return await context.Set<T>().FindAsync(id);
+            return await context.Set<T>().FindAsync(key);
         }
 
-        public async Task<bool> UpdateAsync(int id, T entity)
+        public async Task<bool> UpdateAsync(TKey key, T entity)
         {
-            var existingEntity = await context.Set<T>().FindAsync(id);
+            var existingEntity = await context.Set<T>().FindAsync(key);
 
             if (existingEntity is null)
                 return false;

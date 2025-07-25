@@ -1,13 +1,13 @@
 ﻿namespace CRUD.Core.Application.Interfaces.Repositories
 {
-    public interface IGenericRepository<T> where T : class
+    public interface IGenericRepository<TKey, T> where T : class
     {
         Task AddAsync(T entity);
-        Task<bool> UpdateAsync(int id, T entity);
-        Task DeleteAsync(int id);
-        Task<T> GetByIdAsync(int id);
+        Task<bool> UpdateAsync(TKey key, T entity);
+        Task DeleteAsync(TKey key);
+        Task<T> GetByIdAsync(TKey key);
         Task<ICollection<T>> GetAllAsync();
-        Task<bool> ExistsAsync(int id);
+        Task<bool> ExistsAsync(TKey key);
     } 
 
 }
