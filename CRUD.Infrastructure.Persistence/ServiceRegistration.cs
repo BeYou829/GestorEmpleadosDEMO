@@ -19,6 +19,7 @@ namespace CRUD.Infrastructure.Persistence
 
             services.AddTransient(typeof(IGenericRepository<,>), typeof(GenericRepository<,>));
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+            services.AddTransient<IDepartmentRepository, DepartmentRepository>();
 
             return services;
         }

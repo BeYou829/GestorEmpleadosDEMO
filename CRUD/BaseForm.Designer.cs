@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             dataTable = new DataGridView();
+            AddEmployeeBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)dataTable).BeginInit();
             SuspendLayout();
             // 
@@ -42,11 +43,22 @@
             dataTable.Size = new Size(712, 304);
             dataTable.TabIndex = 0;
             // 
+            // AddEmployeeBtn
+            // 
+            AddEmployeeBtn.Location = new Point(45, 62);
+            AddEmployeeBtn.Name = "AddEmployeeBtn";
+            AddEmployeeBtn.Size = new Size(75, 23);
+            AddEmployeeBtn.TabIndex = 1;
+            AddEmployeeBtn.Text = "Add Employee";
+            AddEmployeeBtn.UseVisualStyleBackColor = true;
+            AddEmployeeBtn.Click += AddEmployeeBtn_Click;
+            // 
             // BaseForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(AddEmployeeBtn);
             Controls.Add(dataTable);
             Name = "BaseForm";
             Text = "CRUD - Employees";
@@ -57,5 +69,6 @@
         #endregion
 
         private DataGridView dataTable;
+        private Button AddEmployeeBtn;
     }
 }

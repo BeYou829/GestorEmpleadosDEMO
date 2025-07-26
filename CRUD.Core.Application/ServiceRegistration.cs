@@ -18,8 +18,10 @@ namespace CRUD.Core.Application
             services.AddSingleton(config);
             services.AddScoped<IMapper, ServiceMapper>();
 
-            services.AddTransient(typeof(IGenericService<, , ,>), typeof(GenericService<,, ,>));
+            services.AddTransient(typeof(IGenericService<, , ,>), typeof(GenericService<, , ,>));
             services.AddTransient<IEmployeeService, EmployeeService>();
+            services.AddTransient<IDepartmentService, DepartmentService>();
+
             return services;
         }
     }

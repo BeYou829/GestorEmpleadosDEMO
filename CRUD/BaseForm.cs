@@ -1,5 +1,6 @@
 using CRUD.Core.Application.Interfaces.Repositories;
 using CRUD.Core.Application.Interfaces.Services;
+using CRUD.Forms;
 
 namespace CRUD
 {
@@ -25,6 +26,12 @@ namespace CRUD
             {
                 throw new Exception(ex.Message);
             }
+        }
+
+        private void AddEmployeeBtn_Click(object sender, EventArgs e)
+        {
+            var form = new AddEmployeeForm();
+            form.ShowDialog();
         }
     }
 }

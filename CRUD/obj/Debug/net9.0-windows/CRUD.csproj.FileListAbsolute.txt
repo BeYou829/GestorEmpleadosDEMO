@@ -165,3 +165,4 @@ C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-wi
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\Mapster.dll
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\Mapster.Core.dll
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\Mapster.DependencyInjection.dll
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.Forms.AddEmployeeForm.resources

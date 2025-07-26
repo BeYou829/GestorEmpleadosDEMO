@@ -20,9 +20,9 @@ namespace CRUD.Core.Application.Services
             await genericRepository.DeleteAsync(key);
         }
 
-        public Task<bool> ExistsAsync(TKey key)
+        public async Task<bool> ExistsAsync(TKey key)
         {
-            return genericRepository.ExistsAsync(key);  
+            return await genericRepository.ExistsAsync(key);  
         }
 
         public async Task<ICollection<TEntityDTO>> GetAllAsync()
@@ -37,9 +37,10 @@ namespace CRUD.Core.Application.Services
                 .ContinueWith(task => task.Result.Adapt<TEntityDTO>());
         }
 
-        public async Task UpdateAsync(TKey key,TSaveEntityDTO entity)
+        public async Task<bool> UpdateAsync(TKey key,TSaveEntityDTO entity)
         {
-            await genericRepository.UpdateAsync(key, entity.Adapt<TEntity>());
+            var updated = await genericRepository.UpdateAsync(key, entity.Adapt<TEntity>());
+            return updated;
         }
     }
 }
