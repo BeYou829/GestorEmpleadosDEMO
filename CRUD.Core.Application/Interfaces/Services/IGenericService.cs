@@ -8,5 +8,7 @@
         Task<TEntityDTO> GetByIdAsync(TKey key);
         Task<ICollection<TEntityDTO>> GetAllAsync();
         Task<bool> ExistsAsync(TKey key);
+        Task<bool> DeactiveAsync(TKey key);
+        Task<bool> ActiveAsync(TKey key);
     }
 }

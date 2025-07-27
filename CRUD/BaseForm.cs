@@ -66,5 +66,29 @@ namespace CRUD
                 await RefreshData();
             }
         }
+
+        private async void DeleteEmployeeBtn_Click(object sender, EventArgs e)
+        {
+            int? employeeId = GetSelectedEmployeeId();
+            var employee = await _employeeService.GetByIdAsync(employeeId.Value);
+            if (employeeId.HasValue)
+            {
+                var result = MessageBox.Show($"Are you sure you want to delete {employeeId} {employee.FirstName} {employee.LastName}? ",
+                    "Confirmation",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question,
+                    MessageBoxDefaultButton.Button2);
+
+                if (result == DialogResult.Yes)
+                {
+                    await _employeeService.DeactiveAsync(employee.Id);
+                    await RefreshData();
+                }
+                else
+                {
+                    await RefreshData();
+                }
+            }
+        }
     }
 }

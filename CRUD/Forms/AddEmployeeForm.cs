@@ -17,8 +17,9 @@ namespace CRUD.Forms
 
             this.Load += async (s, e) => await ComboBox_LoadAsync();
             _employeeId = employeeId;
-            if(_employeeId.HasValue)
+            if (_employeeId.HasValue)
             {
+                this.Text = "Edit Employee";
                 LoadEmployee();
             }
 
@@ -88,6 +89,11 @@ namespace CRUD.Forms
             {
                 MessageBox.Show("Error saving employee. Please check the details and try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void ClearBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

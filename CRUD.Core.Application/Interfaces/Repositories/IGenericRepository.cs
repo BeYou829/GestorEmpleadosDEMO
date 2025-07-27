@@ -8,6 +8,8 @@
         Task<T> GetByIdAsync(TKey key);
         Task<ICollection<T>> GetAllAsync();
         Task<bool> ExistsAsync(TKey key);
+        Task<bool> DeactiveAsync(TKey key);
+        Task<bool> ActiveAsync(TKey key);
     } 
 
 }

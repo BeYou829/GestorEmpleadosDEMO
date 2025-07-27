@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             SaveBtn = new Button();
-            ClearBtn = new Button();
+            CancelBtn = new Button();
             TextBoxFirstName = new TextBox();
             FirstNameLbl = new Label();
             LastNameLbl = new Label();
@@ -51,14 +51,15 @@
             SaveBtn.UseVisualStyleBackColor = true;
             SaveBtn.Click += SaveBtn_Click;
             // 
-            // ClearBtn
+            // CancelBtn
             // 
-            ClearBtn.Location = new Point(293, 204);
-            ClearBtn.Name = "ClearBtn";
-            ClearBtn.Size = new Size(75, 23);
-            ClearBtn.TabIndex = 1;
-            ClearBtn.Text = "Clear";
-            ClearBtn.UseVisualStyleBackColor = true;
+            CancelBtn.Location = new Point(293, 204);
+            CancelBtn.Name = "CancelBtn";
+            CancelBtn.Size = new Size(75, 23);
+            CancelBtn.TabIndex = 1;
+            CancelBtn.Text = "Cancel";
+            CancelBtn.UseVisualStyleBackColor = true;
+            CancelBtn.Click += ClearBtn_Click;
             // 
             // TextBoxFirstName
             // 
@@ -149,10 +150,10 @@
             Controls.Add(TextBoxLastName);
             Controls.Add(FirstNameLbl);
             Controls.Add(TextBoxFirstName);
-            Controls.Add(ClearBtn);
+            Controls.Add(CancelBtn);
             Controls.Add(SaveBtn);
             Name = "AddEmployeeForm";
-            Text = "AddEmployeeForm";
+            Text = "Add a new Employee";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -160,7 +161,7 @@
         #endregion
 
         private Button SaveBtn;
-        private Button ClearBtn;
+        private Button CancelBtn;
         private TextBox TextBoxFirstName;
         private Label FirstNameLbl;
         private Label LastNameLbl;

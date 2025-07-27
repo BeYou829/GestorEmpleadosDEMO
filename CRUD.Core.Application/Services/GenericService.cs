@@ -10,9 +10,19 @@ namespace CRUD.Core.Application.Services
     where TSaveEntityDTO : class
     where TEntityDTO : class
     {
+        public async Task<bool> ActiveAsync(TKey key)
+        {
+            return await genericRepository.ActiveAsync(key);
+        }
+
         public async Task AddAsync(TSaveEntityDTO entity)
         {
             await genericRepository.AddAsync(entity.Adapt<TEntity>());
+        }
+
+        public async Task<bool> DeactiveAsync(TKey key)
+        {
+            return await genericRepository.DeactiveAsync(key);
         }
 
         public async Task DeleteAsync(TKey key)

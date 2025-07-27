@@ -31,6 +31,8 @@
             dataTable = new DataGridView();
             AddEmployeeBtn = new Button();
             EditEmployeeBtn = new Button();
+            DeleteEmployeeBtn = new Button();
+            TitleLbl = new Label();
             ((System.ComponentModel.ISupportInitialize)dataTable).BeginInit();
             SuspendLayout();
             // 
@@ -68,11 +70,33 @@
             EditEmployeeBtn.UseVisualStyleBackColor = true;
             EditEmployeeBtn.Click += EditEmployeeBtn_Click;
             // 
+            // DeleteEmployeeBtn
+            // 
+            DeleteEmployeeBtn.Location = new Point(207, 62);
+            DeleteEmployeeBtn.Name = "DeleteEmployeeBtn";
+            DeleteEmployeeBtn.Size = new Size(75, 23);
+            DeleteEmployeeBtn.TabIndex = 3;
+            DeleteEmployeeBtn.Text = "Delete";
+            DeleteEmployeeBtn.UseVisualStyleBackColor = true;
+            DeleteEmployeeBtn.Click += DeleteEmployeeBtn_Click;
+            // 
+            // TitleLbl
+            // 
+            TitleLbl.AutoSize = true;
+            TitleLbl.Font = new Font("Times New Roman", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            TitleLbl.Location = new Point(45, 11);
+            TitleLbl.Name = "TitleLbl";
+            TitleLbl.Size = new Size(274, 36);
+            TitleLbl.TabIndex = 4;
+            TitleLbl.Text = "RRHH - Employees";
+            // 
             // BaseForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(TitleLbl);
+            Controls.Add(DeleteEmployeeBtn);
             Controls.Add(EditEmployeeBtn);
             Controls.Add(AddEmployeeBtn);
             Controls.Add(dataTable);
@@ -80,6 +104,7 @@
             Text = "CRUD - Employees";
             ((System.ComponentModel.ISupportInitialize)dataTable).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -87,5 +112,7 @@
         private DataGridView dataTable;
         private Button AddEmployeeBtn;
         private Button EditEmployeeBtn;
+        private Button DeleteEmployeeBtn;
+        private Label TitleLbl;
     }
 }
