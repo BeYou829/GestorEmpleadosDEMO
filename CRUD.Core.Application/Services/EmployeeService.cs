@@ -2,7 +2,6 @@
 using CRUD.Core.Application.Interfaces.Repositories;
 using CRUD.Core.Application.Interfaces.Services;
 using CRUD.Core.Domain.Entities;
-using Mapster;
 using MapsterMapper;
 
 namespace CRUD.Core.Application.Services

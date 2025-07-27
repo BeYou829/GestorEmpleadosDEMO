@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|solutionrelative:baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud\\forms\\addemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|solutionrelative:forms\\addemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,29 @@
       "RelativeMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|solutionrelative:baseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud\\forms\\addemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E5F376B4-58C4-4F87-9ED8-DD20B5AECC73}|..\\CRUD.Core.Application\\CRUD.Core.Application.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.core.application\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F376B4-58C4-4F87-9ED8-DD20B5AECC73}|..\\CRUD.Core.Application\\CRUD.Core.Application.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.core.application\\dtos\\employee\\saveemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36671AD1-C7B2-4759-A1BA-0B5F1ECCCE1F}|..\\CRUD.Core.Domain\\CRUD.Core.Domain.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.core.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F376B4-58C4-4F87-9ED8-DD20B5AECC73}|..\\CRUD.Core.Application\\CRUD.Core.Application.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.core.application\\dtos\\department\\savedepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\forms\\addemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|solutionrelative:forms\\addemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F376B4-58C4-4F87-9ED8-DD20B5AECC73}|..\\CRUD.Core.Application\\CRUD.Core.Application.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.core.application\\dtos\\employee\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F376B4-58C4-4F87-9ED8-DD20B5AECC73}|..\\CRUD.Core.Application\\CRUD.Core.Application.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.core.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F376B4-58C4-4F87-9ED8-DD20B5AECC73}|..\\CRUD.Core.Application\\CRUD.Core.Application.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.core.application\\dtos\\department\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +47,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\BaseForm.Designer.cs",
-              "RelativeDocumentMoniker": "BaseForm.Designer.cs",
-              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\BaseForm.Designer.cs",
-              "RelativeToolTip": "BaseForm.Designer.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAswD8AAAAmAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\DTOs\\Employee\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "..\\CRUD.Core.Application\\DTOs\\Employee\\EmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\DTOs\\Employee\\EmployeeDTO.cs",
+              "RelativeToolTip": "..\\CRUD.Core.Application\\DTOs\\Employee\\EmployeeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T17:21:57.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T01:22:19.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaveEmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\DTOs\\Employee\\SaveEmployeeDTO.cs",
+              "RelativeDocumentMoniker": "..\\CRUD.Core.Application\\DTOs\\Employee\\SaveEmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\DTOs\\Employee\\SaveEmployeeDTO.cs",
+              "RelativeToolTip": "..\\CRUD.Core.Application\\DTOs\\Employee\\SaveEmployeeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T01:17:09.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SaveDepartmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\DTOs\\Department\\SaveDepartmentDTO.cs",
+              "RelativeDocumentMoniker": "..\\CRUD.Core.Application\\DTOs\\Department\\SaveDepartmentDTO.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\DTOs\\Department\\SaveDepartmentDTO.cs",
+              "RelativeToolTip": "..\\CRUD.Core.Application\\DTOs\\Department\\SaveDepartmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T01:21:59.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\DTOs\\Department\\DepartmentDTO.cs",
+              "RelativeDocumentMoniker": "..\\CRUD.Core.Application\\DTOs\\Department\\DepartmentDTO.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\DTOs\\Department\\DepartmentDTO.cs",
+              "RelativeToolTip": "..\\CRUD.Core.Application\\DTOs\\Department\\DepartmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T01:21:56.391Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddEmployeeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\Forms\\AddEmployeeForm.cs",
-              "RelativeDocumentMoniker": "Forms\\AddEmployeeForm.cs",
-              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\Forms\\AddEmployeeForm.cs [Design]",
-              "RelativeToolTip": "Forms\\AddEmployeeForm.cs [Design]",
+              "Title": "GenericService.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\Services\\GenericService.cs",
+              "RelativeDocumentMoniker": "..\\CRUD.Core.Application\\Services\\GenericService.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\Services\\GenericService.cs",
+              "RelativeToolTip": "..\\CRUD.Core.Application\\Services\\GenericService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T17:19:25.687Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-26T17:46:54.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\CRUD.Core.Application\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "..\\CRUD.Core.Application\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:46:37.441Z"
             },
             {
               "$type": "Document",
@@ -61,22 +129,58 @@
               "RelativeDocumentMoniker": "BaseForm.cs",
               "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\BaseForm.cs",
               "RelativeToolTip": "BaseForm.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwCIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T17:14:16.231Z",
+              "WhenOpened": "2025-07-26T17:43:33.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaseForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\BaseForm.cs",
-              "RelativeDocumentMoniker": "BaseForm.cs",
-              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\BaseForm.cs [Design]",
-              "RelativeToolTip": "BaseForm.cs [Design]",
+              "Title": "AddEmployeeForm.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\Forms\\AddEmployeeForm.cs",
+              "RelativeDocumentMoniker": "Forms\\AddEmployeeForm.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\Forms\\AddEmployeeForm.cs",
+              "RelativeToolTip": "Forms\\AddEmployeeForm.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T17:11:17.863Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-26T17:43:07.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\BaseForm.Designer.cs",
+              "RelativeDocumentMoniker": "BaseForm.Designer.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\BaseForm.Designer.cs",
+              "RelativeToolTip": "BaseForm.Designer.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAWwDUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T01:41:33.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\CRUD.Core.Domain\\Entities\\Employee.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "..\\CRUD.Core.Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T01:28:32.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddEmployeeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\Forms\\AddEmployeeForm.cs",
+              "RelativeDocumentMoniker": "Forms\\AddEmployeeForm.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\Forms\\AddEmployeeForm.cs [Design]",
+              "RelativeToolTip": "Forms\\AddEmployeeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:43:04.609Z"
             }
           ]
         }

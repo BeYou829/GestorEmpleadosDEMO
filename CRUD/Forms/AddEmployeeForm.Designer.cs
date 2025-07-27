@@ -38,7 +38,7 @@
             TextBoxPosition = new TextBox();
             SalaryLbl = new Label();
             TextBoxSalary = new TextBox();
-            comboBox1 = new ComboBox();
+            ComboBoxDepartments = new ComboBox();
             SuspendLayout();
             // 
             // SaveBtn
@@ -49,6 +49,7 @@
             SaveBtn.TabIndex = 0;
             SaveBtn.Text = "Save Changes";
             SaveBtn.UseVisualStyleBackColor = true;
+            SaveBtn.Click += SaveBtn_Click;
             // 
             // ClearBtn
             // 
@@ -123,20 +124,23 @@
             TextBoxSalary.Size = new Size(100, 23);
             TextBoxSalary.TabIndex = 8;
             // 
-            // comboBox1
+            // ComboBoxDepartments
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(293, 37);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 10;
+            ComboBoxDepartments.DisplayMember = "Name";
+            ComboBoxDepartments.DropDownStyle = ComboBoxStyle.DropDownList;
+            ComboBoxDepartments.FormattingEnabled = true;
+            ComboBoxDepartments.Location = new Point(293, 37);
+            ComboBoxDepartments.Name = "ComboBoxDepartments";
+            ComboBoxDepartments.Size = new Size(121, 23);
+            ComboBoxDepartments.TabIndex = 10;
+            ComboBoxDepartments.ValueMember = "Id";
             // 
             // AddEmployeeForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(461, 257);
-            Controls.Add(comboBox1);
+            Controls.Add(ComboBoxDepartments);
             Controls.Add(SalaryLbl);
             Controls.Add(TextBoxSalary);
             Controls.Add(PositionLbl);
@@ -165,6 +169,6 @@
         private TextBox TextBoxPosition;
         private Label SalaryLbl;
         private TextBox TextBoxSalary;
-        private ComboBox comboBox1;
+        private ComboBox ComboBoxDepartments;
     }
 }
