@@ -30,16 +30,21 @@
         {
             dataTable = new DataGridView();
             AddEmployeeBtn = new Button();
+            EditEmployeeBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)dataTable).BeginInit();
             SuspendLayout();
             // 
             // dataTable
             // 
+            dataTable.AllowUserToAddRows = false;
+            dataTable.AllowUserToDeleteRows = false;
             dataTable.BackgroundColor = SystemColors.ButtonShadow;
             dataTable.BorderStyle = BorderStyle.Fixed3D;
             dataTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataTable.Location = new Point(45, 91);
+            dataTable.MultiSelect = false;
             dataTable.Name = "dataTable";
+            dataTable.ReadOnly = true;
             dataTable.Size = new Size(712, 304);
             dataTable.TabIndex = 0;
             // 
@@ -53,11 +58,22 @@
             AddEmployeeBtn.UseVisualStyleBackColor = true;
             AddEmployeeBtn.Click += AddEmployeeBtn_Click;
             // 
+            // EditEmployeeBtn
+            // 
+            EditEmployeeBtn.Location = new Point(126, 62);
+            EditEmployeeBtn.Name = "EditEmployeeBtn";
+            EditEmployeeBtn.Size = new Size(75, 23);
+            EditEmployeeBtn.TabIndex = 2;
+            EditEmployeeBtn.Text = "Edit";
+            EditEmployeeBtn.UseVisualStyleBackColor = true;
+            EditEmployeeBtn.Click += EditEmployeeBtn_Click;
+            // 
             // BaseForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(EditEmployeeBtn);
             Controls.Add(AddEmployeeBtn);
             Controls.Add(dataTable);
             Name = "BaseForm";
@@ -70,5 +86,6 @@
 
         private DataGridView dataTable;
         private Button AddEmployeeBtn;
+        private Button EditEmployeeBtn;
     }
 }

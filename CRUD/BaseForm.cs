@@ -1,5 +1,7 @@
+using CRUD.Core.Application.DTOs.Employee;
 using CRUD.Core.Application.Interfaces.Services;
 using CRUD.Forms;
+using System.Windows.Forms;
 
 namespace CRUD
 {
@@ -37,6 +39,31 @@ namespace CRUD
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
+            }
+        }
+
+        private int? GetSelectedEmployeeId()
+        {
+            try
+            {
+                var id = int.Parse(dataTable.Rows[dataTable.CurrentRow.Index].Cells[0].Value.ToString());
+                return id;
+            }
+            catch (Exception)
+            {
+                return null;
+                throw;
+            }
+        }
+
+        private async void EditEmployeeBtn_Click(object sender, EventArgs e)
+        {
+            int? employeeId = GetSelectedEmployeeId();
+            if (employeeId.HasValue)
+            {
+                AddEmployeeForm editForm = new AddEmployeeForm(_departmentService, _employeeService, employeeId);
+                editForm.ShowDialog();
+                await RefreshData();
             }
         }
     }
