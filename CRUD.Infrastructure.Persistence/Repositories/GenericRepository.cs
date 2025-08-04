@@ -23,7 +23,7 @@ namespace CRUD.Infrastructure.Persistence.Repositories
             await context.SaveChangesAsync();
         }
 
-        public Task<bool> DeactiveAsync(TKey key)
+        public virtual Task<bool> DeactiveAsync(TKey key)
         {
             var existingEntity = context.Set<T>().FindAsync(key);
             if (existingEntity.Result == null)

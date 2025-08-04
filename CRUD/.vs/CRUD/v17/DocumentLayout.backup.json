@@ -3,21 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|solutionrelative:baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud\\forms\\department\\departmentbaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|solutionrelative:forms\\department\\departmentbaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9E63DD0-9754-49DF-87A2-D16314D83BD4}|CRUD.csproj|solutionrelative:baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E5F376B4-58C4-4F87-9ED8-DD20B5AECC73}|..\\CRUD.Core.Application\\CRUD.Core.Application.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.core.application\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5F376B4-58C4-4F87-9ED8-DD20B5AECC73}|..\\CRUD.Core.Application\\CRUD.Core.Application.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.core.application\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5F376B4-58C4-4F87-9ED8-DD20B5AECC73}|..\\CRUD.Core.Application\\CRUD.Core.Application.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.core.application\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5F376B4-58C4-4F87-9ED8-DD20B5AECC73}|..\\CRUD.Core.Application\\CRUD.Core.Application.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.core.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E308DC0-11E8-4F38-A0B1-A5D655EC3D47}|..\\CRUD.Infrastructure.Persistence\\CRUD.Infrastructure.Persistence.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.infrastructure.persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E308DC0-11E8-4F38-A0B1-A5D655EC3D47}|..\\CRUD.Infrastructure.Persistence\\CRUD.Infrastructure.Persistence.csproj|c:\\users\\engel\\onedrive\\escritorio\\coding\\.net\\winforms\\crud.infrastructure.persistence\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Infrastructure.Persistence\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\CRUD.Infrastructure.Persistence\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Infrastructure.Persistence\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "..\\CRUD.Infrastructure.Persistence\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:32:20.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\CRUD.Core.Application\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "..\\CRUD.Core.Application\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:27:22.743Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -37,61 +62,36 @@
               "RelativeDocumentMoniker": "..\\CRUD.Core.Application\\Services\\GenericService.cs",
               "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\Services\\GenericService.cs",
               "RelativeToolTip": "..\\CRUD.Core.Application\\Services\\GenericService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T17:43:32.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Infrastructure.Persistence\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "..\\CRUD.Infrastructure.Persistence\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Infrastructure.Persistence\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "..\\CRUD.Infrastructure.Persistence\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCAAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T17:39:32.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "..\\CRUD.Core.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "RelativeToolTip": "..\\CRUD.Core.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T17:38:40.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseForm.cs",
-              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\BaseForm.cs",
-              "RelativeDocumentMoniker": "BaseForm.cs",
-              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\BaseForm.cs",
-              "RelativeToolTip": "BaseForm.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAkwFMAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T13:56:16.489Z",
+              "WhenOpened": "2025-08-04T15:24:13.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\BaseForm.cs",
-              "RelativeDocumentMoniker": "BaseForm.cs",
-              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\BaseForm.cs [Design]",
-              "RelativeToolTip": "BaseForm.cs [Design]",
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "..\\CRUD.Core.Application\\Services\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD.Core.Application\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "..\\CRUD.Core.Application\\Services\\DepartmentService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T13:56:13.597Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-04T15:24:10.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentBaseForm.cs",
+              "DocumentMoniker": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\Forms\\Department\\DepartmentBaseForm.cs",
+              "RelativeDocumentMoniker": "Forms\\Department\\DepartmentBaseForm.cs",
+              "ToolTip": "C:\\Users\\engel\\OneDrive\\Escritorio\\Coding\\.NET\\WinForms\\CRUD\\Forms\\Department\\DepartmentBaseForm.cs",
+              "RelativeToolTip": "Forms\\Department\\DepartmentBaseForm.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwEoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:23:47.612Z",
+              "EditorCaption": ""
             }
           ]
         }

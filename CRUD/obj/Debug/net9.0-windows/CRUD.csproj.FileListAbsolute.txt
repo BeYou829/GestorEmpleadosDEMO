@@ -3,7 +3,6 @@ C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-wi
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\CRUD.runtimeconfig.json
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\CRUD.dll
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\CRUD.pdb
-C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.BaseForm.resources
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.csproj.GenerateResource.cache
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.AssemblyInfoInputs.cache
@@ -166,3 +165,9 @@ C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-wi
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\Mapster.Core.dll
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\bin\Debug\net9.0-windows\Mapster.DependencyInjection.dll
 C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.Forms.AddEmployeeForm.resources
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.Properties.Resources.resources
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.EmployeeBaseForm.resources
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.Forms.Home.DashboardForm.resources
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.MainForm.resources
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.Forms.Department.DepartmentBaseForm.resources
+C:\Users\engel\OneDrive\Escritorio\Coding\.NET\WinForms\CRUD\obj\Debug\net9.0-windows\CRUD.Forms.Department.AddDepartmentForm.resources

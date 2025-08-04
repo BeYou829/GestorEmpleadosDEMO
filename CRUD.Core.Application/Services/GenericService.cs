@@ -20,7 +20,7 @@ namespace CRUD.Core.Application.Services
             await genericRepository.AddAsync(entity.Adapt<TEntity>());
         }
 
-        public async Task<bool> DeactiveAsync(TKey key)
+        public virtual async Task<bool> DeactiveAsync(TKey key)
         {
             return await genericRepository.DeactiveAsync(key);
         }

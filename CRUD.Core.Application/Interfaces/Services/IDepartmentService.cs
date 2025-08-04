@@ -5,5 +5,6 @@ namespace CRUD.Core.Application.Interfaces.Services
 {
     public interface IDepartmentService : IGenericService<int, SaveDepartmentDTO, DepartmentDTO, Department>
     {
+        Task<ICollection<DepartmentDTO>> GetAllWithRelations(List<string> navigationProperties);
     }
 }

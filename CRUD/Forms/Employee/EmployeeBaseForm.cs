@@ -1,15 +1,14 @@
-using CRUD.Core.Application.DTOs.Employee;
 using CRUD.Core.Application.Interfaces.Services;
 using CRUD.Forms;
-using System.Windows.Forms;
+using CRUD.Helpers;
 
 namespace CRUD
 {
-    public partial class BaseForm : Form
+    public partial class EmployeeBaseForm : Form
     {
         private readonly IEmployeeService _employeeService;
         private readonly IDepartmentService _departmentService;
-        public BaseForm(IEmployeeService employeeService, IDepartmentService departmentService)
+        public EmployeeBaseForm(IEmployeeService employeeService, IDepartmentService departmentService)
         {
             InitializeComponent();
             _employeeService = employeeService;
@@ -34,7 +33,9 @@ namespace CRUD
             try
             {
                 var empleados = await _employeeService.GetAllWithRelations(["Department"]);
-                dataTable.DataSource = empleados;
+                DataTableEmployees.DataSource = empleados;
+
+                DataTableEmployees.Columns["Id"].Visible = false;
             }
             catch (Exception ex)
             {
@@ -42,38 +43,30 @@ namespace CRUD
             }
         }
 
-        private int? GetSelectedEmployeeId()
-        {
-            try
-            {
-                var id = int.Parse(dataTable.Rows[dataTable.CurrentRow.Index].Cells[0].Value.ToString());
-                return id;
-            }
-            catch (Exception)
-            {
-                return null;
-                throw;
-            }
-        }
-
         private async void EditEmployeeBtn_Click(object sender, EventArgs e)
         {
-            int? employeeId = GetSelectedEmployeeId();
+            int? employeeId = DataTableHelpers.GetSelectedId(DataTableEmployees);
             if (employeeId.HasValue)
             {
-                AddEmployeeForm editForm = new AddEmployeeForm(_departmentService, _employeeService, employeeId);
+                AddEmployeeForm editForm = new(_departmentService, _employeeService, employeeId);
                 editForm.ShowDialog();
                 await RefreshData();
+            }
+            else
+            {
+                MessageBox.Show("Please select an employee to edit.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private async void DeleteEmployeeBtn_Click(object sender, EventArgs e)
         {
-            int? employeeId = GetSelectedEmployeeId();
-            var employee = await _employeeService.GetByIdAsync(employeeId.Value);
+            int? employeeId = DataTableHelpers.GetSelectedId(DataTableEmployees);
+
             if (employeeId.HasValue)
             {
-                var result = MessageBox.Show($"Are you sure you want to delete {employeeId} {employee.FirstName} {employee.LastName}? ",
+                var employee = await _employeeService.GetByIdAsync(employeeId.Value);
+
+                var result = MessageBox.Show($"Are you sure you want to delete {employee.FirstName} {employee.LastName}? ",
                     "Confirmation",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Question,
@@ -88,6 +81,10 @@ namespace CRUD
                 {
                     await RefreshData();
                 }
+            }
+            else
+            {
+                MessageBox.Show("Please select an employee to delete.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

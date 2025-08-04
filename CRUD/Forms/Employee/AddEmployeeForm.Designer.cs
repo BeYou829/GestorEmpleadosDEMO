@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddEmployeeForm));
             SaveBtn = new Button();
             CancelBtn = new Button();
             TextBoxFirstName = new TextBox();
@@ -152,6 +153,7 @@
             Controls.Add(TextBoxFirstName);
             Controls.Add(CancelBtn);
             Controls.Add(SaveBtn);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "AddEmployeeForm";
             Text = "Add a new Employee";
             ResumeLayout(false);

@@ -1,4 +1,6 @@
 using CRUD.Core.Application;
+using CRUD.Forms.Department;
+using CRUD.Forms.Home;
 using CRUD.Infrastructure.Persistence;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -16,7 +18,8 @@ namespace CRUD
             var host = CreateHostBuilder().Build();
             ServiceProvider = host.Services;
 
-            Application.Run(ServiceProvider.GetRequiredService<BaseForm>());
+            //ServiceProvider.GetRequiredService<EmployeeBaseForm>();
+            Application.Run(new MainForm());
         }
 
         static IHostBuilder CreateHostBuilder()
@@ -29,7 +32,11 @@ namespace CRUD
                             .AddPersistenceLayer(context.Configuration)
                             .AddApplicationLayer();
 
-                    services.AddTransient<BaseForm>();
+                    services.AddTransient<EmployeeBaseForm>()
+                            .AddTransient<DashboardForm>()
+                            .AddTransient<DepartmentBaseForm>();
+ 
+                    //services.AddTransient<MainForm>();
                 });
         }
     }
